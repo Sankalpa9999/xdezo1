@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    margin: 2rem auto;
+    width: 600px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input {
+    width: 80%;
+
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+.form-group {
+    /* flex: 1 1 300px; */
+    width: 295px;
+}
+
+@media screen and (max-width:600px) {
+    .form-group {
+        width: 100%;
+    }
+
+    .form {
+        padding: 2rem;
+    }
+
+}

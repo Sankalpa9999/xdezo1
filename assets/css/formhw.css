@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.form{
+    width: 600px;
+    margin: 2rem auto;
+    /* padding: 10px; */
+    box-shadow: rgba(187, 185, 185, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+form{
+    /* padding: 70px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2rem;
+}
+.two{
+    /* flex: 1 1 200px; */
+    width: 295px;
+}
+
+input{
+    width: 100%;
+    padding:6px;
+    border-radius: 10px;
+}
+
+select{
+
+    width: 100%;
+    padding: 5px;
+}
+label{
+    padding-bottom: 3px;
+    display: block;
+}
+
+input[type = "submit"]{
+    width: 100px;
+    padding: 0.4rem 1.2rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+.submit{
+    padding-left: 90px;
+    text-align: center;
+}
+
+input:hover{
+    background-color: rgb(218, 218, 218);
+}
+select:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+input[type = "submit"]:hover{
+    background-color: rgb(173, 173, 173);
+}
+
+
+@media screen and (max-width:1200px){
+    .two{
+        width: 20%;
+    }
+    .form{
+        padding: 2rem;
+    }
+}
+@media screen and (max-width:992px){
+    .two{
+        width: 25%;
+    }
+    .form{
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .two{
+        width: 33.33%;
+    }
+    .form{
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .two{
+        width: 50%;
+    }
+    .form{
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:480px){
+    .two{
+        width: 100%;
+    }
+    .form{
+        padding: 2rem;
+    }
+}
